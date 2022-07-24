@@ -1,0 +1,358 @@
+.navbar{ background:#4169e1;}
+
+.nav-link , .navbar-brand, .fixed-top{ color: #f4f4f4; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #f4f4f4; color: #4169e1; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:#fff !important;}
+
+
+/*Стиль хедера*/
+.header{
+ background-image: url('1.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
+}
+
+/*Description*/
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+ color:#4169e1 ;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #4169e1;
+ background:#4169e1;
+ color:#fff;
+}
+
+
+/*About*/
+
+.about{
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+}
+.about h1{
+ color:#F97300;
+ margin: 2em;
+}
+
+.about img{
+    height: 100%;
+    max-height: 600px;
+    min-height: 280px;
+    width: 100%;
+    border-radius: 50%
+}
+
+.about span{
+ display: block;
+ color: #4169e1;
+ position: absolute;
+ left: 115px;
+}
+.about .desc{
+ padding: 2em;
+ border-left:4px solid #10828C;
+}
+.about .desc h3{
+ color: #4169e1;
+}
+
+
+.about .desc p{
+ line-height:2;
+ color:#888;
+}
+
+
+
+/*Clients*/
+
+.blog{
+ margin: 4em 0;
+ position: relative; 
+}
+.blog h1{
+ color:#4169e1;
+ margin: 2em; 
+}
+.blog h2{
+ color:#4169e1;
+ ; 
+}
+.blog .card{
+ box-shadow: 0 0 20px #ccc;
+}
+.blog .card img{
+ padding: 10px;
+ width: 100%;
+ height: 12em;
+}
+.blog .card-title{
+ color:#4169e1;
+  
+}
+.blog .card-body{
+ padding: 1em;
+}
+
+
+/*About2*/
+.about2{
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+}
+.about2 h1{
+ color:#4169e1;
+ margin: 2em;
+}
+.about2 img{
+ height: 100%;
+ max-height: 220px;
+  width: 58%;
+  max-width: 200px;
+  border-radius: 48%;
+  margin-left: 100px;
+  position: right;
+
+}
+
+.about2 span{
+ display: block;
+ color: #4169e1;
+ position: absolute;
+ left: 90px;
+}
+
+about2 p{
+    display: block;
+    color: #4169e1;
+}
+
+.about2 .desc h3{
+ color: #4169e1;;
+}
+.about2 .desc p{
+ line-height:2;
+ color:#888;
+}
+.about2  button{
+ border:1px  solid #4169e1;
+ background:#4169e1;
+ color:#fff;
+}
+
+/*About3*/
+.about3{
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+}
+.about3 h1{
+ color:#F97300;
+ margin: 2em;
+}
+
+.about3 img{
+    height: 100%;
+    max-height: 600px;
+    min-height: 280px;
+    width: 100%;
+    border-radius: %
+}
+
+.about3 span{
+ display: block;
+ color: #4169e1;
+ position: absolute;
+ left: 115px;
+}
+.about3 .desc{
+ padding: 2em;
+ border-left:4px solid #10828C;
+}
+.about3 .desc h2{
+ color: #0000FF;
+}
+.about3 .desc h5{
+ color: #4169e1;
+ margin: 12px auto;
+}
+
+.about3 .desc p{
+ line-height:;
+ color:#1C1C1C;
+}
+.about3 .desc output{
+
+ line-height:2;
+ color:#black;
+}
+.price {
+    vertical-align: centre;
+    height: 50px;
+    width: 70px;
+    text-align: center;
+    background-color: #4169e1;
+    border-radius: 10%;
+    line-height: 70px;
+    color: #FFF;
+    font-size: 1.4em;
+    font-weight: 100;
+    margin: 12px auto;
+}
+/*Form*/
+.contact-form{
+ margin: 6em 0;
+ position: relative;  
+}
+.contact-form h1{
+ padding:2em 1px;
+ color: #4169e1; 
+}
+.contact-form .right{
+ max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+ background:  #4169e1;
+ color: #fff;
+ border:0;
+}
+.contact-form .right .form-control::placeholder{
+ color: #888;
+ font-size: 16px;
+}
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #4169e1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+/*Footer*/
+footer .new_footer_top {
+    padding: 120px 0px 200px;
+    position: relative;
+      overflow-x: hidden;
+}
+
+.new_footer_top .footer_bg {
+    position: absolute;
+    bottom: 0;
+    background: url("img/footer_bg.png") no-repeat scroll center 0;
+    width: 100%;
+    height: 266px;
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
+    background: url("img/volks.gif") no-repeat center center;
+    width: 330px;
+    height: 105px;
+  background-size:100%;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    -webkit-animation: myfirst 22s linear infinite;
+    animation: myfirst 22s linear infinite;
+}
+
+.new_footer_top .footer_bg .footer_bg_two {
+    background: url("img/cyclist.gif") no-repeat center center;
+    width: 88px;
+    height: 100px;
+  background-size:100%;
+    bottom: 0;
+    left: 38%;
+    position: absolute;
+    -webkit-animation: myfirst 30s linear infinite;
+    animation: myfirst 30s linear infinite;
+}
+
+@-moz-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/*************footer End*****************/
